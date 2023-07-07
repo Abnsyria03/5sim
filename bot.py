@@ -40,7 +40,7 @@ client.start(bot_token=token)
 client.connect()
 
 print('Running...')
-client.send_message(1872571604, 'Bot running..', buttons=Button.clear())
+client.send_message(5108562302, 'Bot running..', buttons=Button.clear())
 
 
 @client.on(events.NewMessage())
